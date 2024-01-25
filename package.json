@@ -1,0 +1,21 @@
+{
+  "name": "ms-autenticacao",
+  "version": "1.0.0",
+  "description": "Microsserviço de autenticação com JWT feito com NodeJS",
+  "main": "./dist/index.js",
+  "scripts": {
+    "start": "node ./",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "autenticacao_node"
+  },
+  "author": "Guilherme Tiossi",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.6",
+    "typescript": "^5.3.3"
+  }
+}
